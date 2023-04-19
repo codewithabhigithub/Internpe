@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
+html, body{
+    font-family:"Alkatra";
+}
+.button{
+    margin: 3px ;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border: 2px solid rgb(238, 43, 193);
+    box-shadow: 0px 8px 15px 1px rgb(68, 2, 44);
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.row{
+    margin: 4px;
+}
+.row input{
+    font-size: 21px;
+    margin: 8px;
+    padding: 10px 0px;
+    /* border: 2px solid black; */
+    border: 2px solid rgb(155, 8, 121);
+    height: 60px;
+    border-radius: 9px;
+}
+.text-center{
+    text-align: center;
+    color: rgb(143, 6, 111);
+    text-shadow: 5px 5px 5px rgb(196, 25, 167);
+}
+
+.bg-black{
+    background: rgb(255, 0, 174);
+    width: 286px;
+    height: 470px;
+    border-radius: 9px ;
+    margin:auto;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px 10px rgb(255, 0, 153);
+}
