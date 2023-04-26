@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+
+    <!-- link icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!-- link file css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link the title icon-->
+    <link rel="icon" type="image/png" href="Shoes1.png"/>
+</head>
+<body>
+    <div class="contanier">
+
+        <nav>
+            <div class="logo">
+                <i class="fa-solid fa-store"></i>
+                <h1>Store</h1>
+            </div>
+
+            <ul>
+                <li class="active"><a href="#">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">shop</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <div class="div-text">
+                <span>Shoes</span>
+                <h3>Are you ready to</h3>
+                <h1>Lead the way</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                    Doloremque unde sunt eum illum ab tempora illo iure sequi <br> minus culpa.</p>
+                    <a href="#" class="btn">buy now</a>
+            </div>
+
+            <div class="div-img">
+                <img id="big-img" src="Shoes2.png" alt="">
+                
+            </div>
+
+            <div class="small-img">
+                <img onclick="myShoes(this.src)" src="Shoes1.png" alt="">
+                <img onclick="myShoes(this.src)" src="Shoes2.png" alt="">
+                <img onclick="myShoes(this.src)" src="Shoes3.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let bigImage = document.getElementById('big-img');
+
+        function myShoes(shoes){
+            bigImage.src = shoes
+        }
+    </script>
+</body>
+</html>
